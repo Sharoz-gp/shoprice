@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>shoprice</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="HomePage.css">        
+        
+    </head>
+
+    <body>
+        <div class="Start-Div">  
+        
+            <div class="logo">
+        <h1>shoprice</h1>
+        <h3>Grocery comparison site  --- HOMEPAGE --- helping local shopping go global --- shop for prices -> Save £ & Select</h3>
+            </div>
+        
+            <div class="searchForm">
+                    <form action="http://localhost:8383/HTML5Application/SearchResults.html">
+                    <label for="searchFor">Search for</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="location">Location:</label><br>
+                    <input type="text" id="lname" name="lname">
+                    <input type="submit" value="Submit" >        
+                    </form> 
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+                        <div id="myDropdown" class="dropdown-content">
+                          <a href="#home">Choose distance</a>
+                          <a href="#about">1 mile</a>
+                          <a href="#contact">3 mile</a>
+                          <a href="#contact">5 mile</a>
+                          <a href="#contact">10 mile</a>
+                          <a href="#contact">Add more but use javascript to automate html</a>                
+                          <a href="#contact">Nationwide</a>            
+                        </div>
+        </div>
+
+            </div>
+
+        <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+        
+        
+        
+        <div class="about">
+        <h2>shoprice</h2>
+        
+        <ul>
+            <li><a href="http://localhost:8383/HTML5Application/SearchResults.html">-------</a></li>
+            <li><a href="http://localhost:8383/HTML5Application/Register.html">-------</a></li>
+            <li><a href="http://localhost:8383/HTML5Application/Register.html">Register your business</a></li>
+            <li><a href="http://localhost:8383/HTML5Application/Support.html">Support</a></li>
+            <li><a href="http://localhost:8383/HTML5Application/ContactUs.html">Contact us</a></li>
+            <li><a href="http://localhost:8383/HTML5Application/AboutUs.html">About us</a></li>            
+        </ul>
+        
+        </div>
+        
+        </div>
+        
+    </body>
+    
+    
+    
+    
+</html>

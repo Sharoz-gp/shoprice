@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06-Mar-2021, 13:13:58
+    Author     : Sharoz1
+*/
+
+div.logo{
+    font-family:"Lucida Console", "Courier New", monospace;
+    color: orange;
+    letter-spacing: 3px;
+}
+
+
+div .searchForm input{
+    
+    float:left;
+    clear: both;
+    
+}
+
+
+
+
+                    .dropbtn {
+                      background-color: #3498DB;
+                      color: white;
+                      padding: 16px;
+                      font-size: 16px;
+                      border: none;
+                      cursor: pointer;
+                    }
+
+                    .dropbtn:hover, .dropbtn:focus {
+                      background-color: #2980B9;
+                    }
+
+                    .dropdown {
+                      position: relative;
+                      display: inline-block;
+                    }
+
+                    .dropdown-content {
+                      display: none;
+                      position: absolute;
+                      background-color: #f1f1f1;
+                      min-width: 160px;
+                      overflow: auto;
+                      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                      z-index: 1;
+                    }
+
+                    .dropdown-content a {
+                      color: black;
+                      padding: 12px 16px;
+                      text-decoration: none;
+                      display: block;
+                    }
+
+                    .dropdown a:hover {background-color: #ddd;}
+
+                    .show {display: block;}
